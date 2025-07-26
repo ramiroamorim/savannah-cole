@@ -1,4 +1,4 @@
-# Componentes do Projeto Chef Amélie Dupont
+# Componentes do Projeto Savanna Cole 
 
 Esta pasta contém todos os componentes React utilizados no projeto, organizados por domínio.
 
