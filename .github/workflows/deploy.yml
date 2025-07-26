@@ -1,4 +1,4 @@
-name: Deploy Chef Amélie Quiz to GitHub Pages
+name: Deploy Chef Savanna Cole
 
 on:
   push:
