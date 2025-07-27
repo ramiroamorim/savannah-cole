@@ -20,11 +20,11 @@ export const RecipeCollage: React.FC<RecipeCollageProps> = ({ variant = 'grid' }
       break;
     case 'book':
       image = RecipeImages.book;
-      altText = "Livre de recettes Chef Amélie Dupont";
+      altText = "Livre de recettes Chef Savannah Cole";
       break;
     case 'collage':
       image = RecipeImages.collage;
-      altText = "Collection de recettes Chef Amélie Dupont";
+      altText = "Collection de recettes Chef Savannah Cole";
       break;
     case 'testimonial':
       image = TestimonialImages.testimonial2;

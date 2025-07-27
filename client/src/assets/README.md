@@ -1,6 +1,6 @@
 # Estrutura de Assets
 
-Esta pasta contém todos os assets utilizados no projeto Chef Amélie Dupont, organizados por categoria.
+Esta pasta contém todos os assets utilizados no projeto Chef Savannah Cole, organizados por categoria.
 
 ## Organização
 

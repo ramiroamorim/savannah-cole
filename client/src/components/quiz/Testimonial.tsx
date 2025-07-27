@@ -85,7 +85,7 @@ export default function Testimonial({ testimonials, onComplete }: TestimonialPro
                 <div className="relative w-full h-[280px] rounded-xl overflow-hidden">
                   <img 
                     src={testimonialImages[currentIndex % testimonialImages.length]}
-                    alt={current.imageAlt || "Recettes Chef Amélie Dupont"} 
+                    alt={current.imageAlt || "Recettes Chef Savannah Cole"} 
                     className="w-full h-full object-cover"
                     loading="eager"
                     decoding="async"

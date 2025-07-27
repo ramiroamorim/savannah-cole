@@ -10,7 +10,7 @@ const SimpleAudioPlayer = () => {
     <div className="flex flex-col items-center w-full mb-5">
       <div className="w-full max-w-md bg-white rounded-lg shadow-md p-4">
         <div className="text-center mb-4">
-          <h3 className="text-lg font-semibold text-gray-800 mb-2">🎧 Message from Chef Amélie</h3>
+          <h3 className="text-lg font-semibold text-gray-800 mb-2">🎧 Message from Chef Savannah</h3>
           <p className="text-sm text-gray-600">Listen to the special message about her recipes</p>
         </div>
         
@@ -181,11 +181,11 @@ export default function ThankYou() {
             />
             
             <div className="flex justify-between items-center mb-4">
-              <p className="font-medium text-[#B34431] text-lg">Chef Amélie Dupont</p>
-              {ChefImages && ChefImages.amelie ? (
+              <p className="font-medium text-[#B34431] text-lg">Chef Savannah Cole</p>
+              {ChefImages && ChefImages.savannah ? (
                 <img 
-                  src={ChefImages.amelie} 
-                  alt="Chef Amélie Dupont" 
+                  src={ChefImages.savannah} 
+                  alt="Chef Savannah Cole" 
                   className="h-12 w-12 rounded-full object-cover border-2 border-white shadow-md"
                 />
               ) : (
@@ -193,15 +193,15 @@ export default function ThankYou() {
                   className="h-12 w-12 rounded-full bg-white border border-[#e9ecef] overflow-hidden shadow-md"
                 >
                   <img 
-                    src="/images/chef-amelie.jpg" 
-                    alt="Chef Amélie Dupont"
+                    src="/images/chef-savannah.jpg" 
+                    alt="Chef Savannah Cole"
                     className="w-full h-full object-cover" 
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.onerror = null;
                       const fallbackDiv = document.createElement('div');
                       fallbackDiv.className = "h-full w-full flex items-center justify-center bg-[#B34431] text-white text-sm font-bold";
-                      fallbackDiv.textContent = "AD";
+                      fallbackDiv.textContent = "SC";
                       target.parentElement?.appendChild(fallbackDiv);
                       target.style.display = 'none';
                     }}
@@ -346,7 +346,7 @@ export default function ThankYou() {
               I WANT A PLAN EVERY SUNDAY!
             </Button>
             <a 
-              href="https://www.notion.so/Chef-Am-lie-Dupont-1d529766d17b80128475e56e60b5fbe8" 
+              href="https://www.notion.so/Chef-Savannah-Cole-1d529766d17b80128475e56e60b5fbe8" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#B34431] text-sm hover:underline"

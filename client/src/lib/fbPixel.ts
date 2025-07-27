@@ -53,7 +53,7 @@ export const FacebookPixel = {
     if (typeof window !== 'undefined' && window.fbq) {
       window.fbq('track', 'Purchase', {
         value: 49.90,
-        currency: 'EUR'
+        currency: 'US'
       });
     }
   },

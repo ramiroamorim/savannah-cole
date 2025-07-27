@@ -5,7 +5,7 @@ const quizSteps = [
     title: "Découvrez votre profil gourmand et 500 recettes sans sucre, sans gluten et sans lactose",
     textBlocks: [
       { content: "Répondez à un court quiz pour découvrir votre profil et recevez des recettes personnalisées pour vos besoins." },
-      { content: "<strong>500 recettes de la Chef Amélie Dupont qui nourrissent votre corps et font mincir avec plaisir!</strong>", highlight: true }
+      { content: "<strong>500 recettes de la Chef Savannah Cole qui nourrissent votre corps et font mincir avec plaisir!</strong>", highlight: true }
     ],
     buttonText: "Commencer",
     footerText: "Quiz gratuit • Résultats immédiats"
@@ -59,7 +59,7 @@ const quizSteps = [
 
 const testimonials = [
   {
-    message: "Les recettes d'Amélie ont changé ma vie! J'ai perdu 7kg en suivant ses conseils et je me sens tellement mieux. Tout est délicieux!",
+    message: "Les recettes de Savannah ont changé ma vie! J'ai perdu 7kg en suivant ses conseils et je me sens tellement mieux. Tout est délicieux!",
     time: "14:22",
     image: "https://randomuser.me/api/portraits/women/65.jpg"
   },
@@ -222,7 +222,7 @@ function renderStep(stepIndex) {
         </div>
         
         <div class="recipe-book">
-          <h2 class="recipe-book-title">La Collection Privée de Chef Amélie Dupont</h2>
+          <h2 class="recipe-book-title">La Collection Privée de Chef Savannah Cole</h2>
           
           <p>
             Ce recueil exclusif contient 500 recettes délicieuses qui:
@@ -284,7 +284,7 @@ function renderStep(stepIndex) {
         </div>
         
         <div class="footer">
-          <p>© 2025 Chef Amélie Dupont - Tous droits réservés</p>
+          <p>© 2025 Chef Savannah Cole - Tous droits réservés</p>
         </div>
       </div>
     `;

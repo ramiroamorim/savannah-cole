@@ -1,6 +1,6 @@
 # Componentes UI Essenciais
 
-Esta pasta contém os componentes UI essenciais que são utilizados no projeto Chef Amélie Dupont.
+Esta pasta contém os componentes UI essenciais que são utilizados no projeto Chef Savannah Cole.
 
 Mantemos aqui apenas os componentes que estamos usando ativamente no aplicativo, o que ajuda a:
 

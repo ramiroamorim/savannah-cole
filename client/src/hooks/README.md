@@ -1,6 +1,6 @@
 # Hooks Personnalisés
 
-Cette structure contient tous les hooks personnalisés utilisés dans l'application Chef Amélie Dupont.
+Cette structure contient tous les hooks personnalisés utilisés dans l'application Chef Savannah Cole.
 
 ## Hooks Disponibles
 

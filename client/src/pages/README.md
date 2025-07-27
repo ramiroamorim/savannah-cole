@@ -1,6 +1,6 @@
 # Pages Structure
 
-Cette structure contient toutes les pages de l'application Chef Amélie Dupont.
+This structure contains all the pages of the Chef Savannah Cole application.
 
 ## Organization
 

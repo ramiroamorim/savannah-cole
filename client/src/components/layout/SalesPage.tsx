@@ -188,7 +188,7 @@ export default function SalesPage() {
             color: "#333333",
             margin: "0"
           }}>
-            They were born in Amélie's real kitchen — not on Pinterest, nor in a copy-paste blog. Each dish was designed to <span style={{ fontWeight: "700" }}>soothe, nourish</span>... and bring back <span style={{ fontWeight: "700" }}>pleasure</span> to those who had given up.
+            They were born in Savannah's real kitchen — not on Pinterest, nor in a copy-paste blog. Each dish was designed to <span style={{ fontWeight: "700" }}>soothe, nourish</span>... and bring back <span style={{ fontWeight: "700" }}>pleasure</span> to those who had given up.
           </p>
         </div>
         
@@ -236,7 +236,7 @@ export default function SalesPage() {
             fontSize: "0.95rem", 
             marginBottom: "10px",
             lineHeight: "1.8"
-          }}>Access to <span style={{ color: "#B34431", fontWeight: "bold" }}>500 exclusive recipes</span> created and tested by Chef Amélie — organized to nourish, soothe and delight your daily life.</p>
+          }}>Access to <span style={{ color: "#B34431", fontWeight: "bold" }}>500 exclusive recipes</span> created and tested by Chef Savannah — organized to nourish, soothe and delight your daily life.</p>
           
           <ul style={{
             listStyle: "none",
@@ -335,7 +335,7 @@ export default function SalesPage() {
         <div className="mb-5 sm:mb-6 overflow-hidden">
           <img 
             src={recipeBookNewImage} 
-            alt="Chef Amélie Dupont recipe book"
+            alt="Chef Savannah Cole recipe book"
             className="w-full h-auto rounded-xl shadow-lg"
             style={{ 
               border: "1px solid #f0f0f0",
@@ -398,7 +398,7 @@ export default function SalesPage() {
             fontWeight: "500", 
             color: "#B34431"
           }}>
-            Chef Amélie Dupont
+            Chef Savannah Cole
           </p>
         </div>
       </div>

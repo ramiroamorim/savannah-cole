@@ -19,7 +19,7 @@ export const quizSteps: QuizStepType[] = [
         content: "And go for seconds. Without guilt."
       },
       {
-        content: "🎁 In 1 minute, discover your <strong>gourmet profile</strong> and access the <em>private collection</em> of 500 signature recipes from Chef Amélie."
+        content: "🎁 In 1 minute, discover your <strong>gourmet profile</strong> and access the <em>private collection</em> of 500 signature recipes from Chef Savannah."
       }
     ],
     image: "https://cdn.xquiz.co/images/94f2084a-557c-43be-abcc-2ba23141cb46",
@@ -101,13 +101,13 @@ export const quizSteps: QuizStepType[] = [
   // Step 4
   {
     name: "chef_profile",
-    image: ChefImages.amelie,
-    imageAlt: "Chef Amélie Dupont",
-    title: "Meet Chef Amélie Dupont",
+    image: ChefImages.savannah,
+    imageAlt: "Chef Savannah Cole",
+    title: "Meet Chef Savannah Cole",
     description: "Her story, her mission, her recipes.",
     textBlocks: [
       {
-        content: "Born in Aix-en-Provence, Amélie Dupont grew up surrounded by warm bread, fresh herbs, and family recipes passed down by her grandmother."
+        content: "Born in Georgia, USA, Savannah Cole grew up surrounded by warm bread, fresh herbs, and family recipes passed down by her grandmother."
       },
       {
         content: "She refined her expertise working in local restaurants committed to natural cuisine that respects the body."

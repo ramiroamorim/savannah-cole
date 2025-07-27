@@ -7,7 +7,7 @@
 
 // Chef Images
 import chefProfile from './images/chef/chef-profile.png';
-import chefAmelie from './images/chef/chef-amelie.png';
+import chefSavannah from './images/chef/chef-savannah.png';
 
 // Recipes Images
 import recipeBook from './images/recipes/recipe-book-new.png'; // Imagem do livro de receitas
@@ -33,7 +33,7 @@ import audioPreview from './images/thank-you/audio-preview.png';
 // Export por categoria para organização
 export const ChefImages = {
   profile: chefProfile,
-  amelie: chefAmelie
+  savannah: chefSavannah
 };
 
 export const RecipeImages = {
@@ -64,7 +64,7 @@ export const ThankYouImages = {
 export {
   // Chef Images
   chefProfile,
-  chefAmelie,
+  chefSavannah,
   
   // Recipe Images
   recipeBook,

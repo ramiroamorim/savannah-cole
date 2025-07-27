@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script de deploy otimizado para Chef Amélie Dupont
+# Script de deploy otimizado para Chef Savannah Cole
 echo "🚀 Iniciando processo de build e deploy..."
 
 # Limpar diretório de build anterior

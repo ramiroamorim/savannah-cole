@@ -45,7 +45,7 @@ export const testimonials: TestimonialType[] = [
     imageAlt: "Témoignage brownie sans sucre pour diabétique"
   },
   {
-    message: "Amelie, hello..... I lost 4 kilos without even realizing it. I got your book to eat healthier, and in the end, it also helped me lose weight. The recipes are filling and balanced, so I stopped snacking on anything. Now, I eat well, without frustration, and I feel better 🙏❤️❤️",
+    message: "Savannah, hello..... I lost 4 kilos without even realizing it. I got your book to eat healthier, and in the end, it also helped me lose weight. The recipes are filling and balanced, so I stopped snacking on anything. Now, I eat well, without frustration, and I feel better 🙏❤️❤️",
     time: "",
     image: testimonialImages[0],
     imageAlt: "Témoignage perte de poids"
@@ -81,7 +81,7 @@ export const testimonials: TestimonialType[] = [
     imageAlt: "Témoignage coeliaque"
   },
   {
-    message: "Amelie, good evening!! Honestly, I'm so happy. Since I discovered my lactose intolerance, I had stopped making desserts because nothing really pleased me. But yesterday, I made your carrot cake and it was perfect. Moist, flavorful, and the sugar-free frosting is so good. It's nice to be able to treat yourself without feeling guilty 🙏❤️",
+    message: "Savannah, good evening!! Honestly, I'm so happy. Since I discovered my lactose intolerance, I had stopped making desserts because nothing really pleased me. But yesterday, I made your carrot cake and it was perfect. Moist, flavorful, and the sugar-free frosting is so good. It's nice to be able to treat yourself without feeling guilty 🙏❤️",
     time: "7:46 PM",
     image: testimonialImages[2],
     imageAlt: "Témoignage intolérance au lactose"

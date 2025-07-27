@@ -1,6 +1,6 @@
 # Scripts de Deploy e Utilidades
 
-Esta pasta contém scripts usados para o deploy e gerenciamento do projeto Chef Amélie Dupont.
+Esta pasta contém scripts usados para o deploy e gerenciamento do projeto Chef Savannah Cole.
 
 ## Scripts Disponíveis
 

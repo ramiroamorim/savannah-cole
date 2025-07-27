@@ -38,26 +38,26 @@ export default function ProfileResult({ onViewSuggestions }: ProfileResultProps)
       transition={{ duration: 0.3 }}
       className="profile-result max-w-md mx-auto my-5 sm:my-8 md:my-12 px-3 sm:px-6"
     >
-      <h2 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2 text-primary">Votre profil gourmand :</h2>
-      <h3 className="text-2xl sm:text-3xl font-normal text-[#333333] mb-6 sm:mb-8 md:mb-10">La Curieuse Épicurienne</h3>
+      <h2 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2 text-primary">Your gourmet profile:</h2>
+      <h3 className="text-2xl sm:text-3xl font-normal text-[#333333] mb-6 sm:mb-8 md:mb-10">The Curious Epicurean</h3>
 
       <div className="space-y-5 sm:space-y-8 md:space-y-10 text-[#333333] text-left">
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Vous êtes du genre à explorer de nouvelles saveurs, à tester des recettes inattendues et à faire plaisir sans culpabilité.
+            You're the type of person who likes to explore new flavors, try out unexpected recipes and indulge without guilt.
         </p>
         
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Votre palais recherche l'équilibre entre le plaisir et le bien-être — sans sacrifier la gourmandise.
+            Your palate seeks a balance between pleasure and well-being - without sacrificing indulgence.
         </p>
         
         <p className="text-sm sm:text-base md:text-lg leading-relaxed">
-          Ce que la Chef Amélie a préparé pour vous est exactement ça : un univers de recettes qui allient textures, arômes et nutrition intelligente.
+            What Chef Savannah has prepared for you is exactly that: a universe of recipes that combine textures, aromas and intelligent nutrition.
         </p>
       </div>
 
       <div className="mt-8 sm:mt-10 md:mt-12">
         <CoralPulseButton onClick={onViewSuggestions}>
-          Voir les suggestions de la Chef 🍽️
+            See the Chef's suggestions 🍽️
         </CoralPulseButton>
       </div>
     </motion.div>

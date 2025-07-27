@@ -2,7 +2,7 @@ import React from 'react';
 import recipeBookImage from '@/assets/images/recipes/recipe-book.png';
 
 /**
- * Componente simples para exibir a grade de receitas do Chef Amélie
+ * Componente simples para exibir a grade de receitas do Chef Savannah
  * Usado em várias partes da aplicação para mostrar o catálogo de receitas
  * 
  * Este componente foi movido para pasta /components/recipe para seguir a
