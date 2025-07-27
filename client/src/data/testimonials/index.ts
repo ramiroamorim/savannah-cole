@@ -21,73 +21,73 @@ export const testimonialImages = [
 
 export const testimonials: TestimonialType[] = [
   {
-    message: "Avant je me réveillais gonflée, fatiguée, perdue.<br>En 21 jours avec le Plan Express j'ai perdu 3,1kg, mes vêtements tombent mieux...<br>Mais surtout : je me sens en paix à table. C'est nouveau.",
+    message: "Before I used to wake up bloated, tired, lost.<br>In 21 days with the Express Plan I lost 3.1kg, my clothes fit better...<br>But most importantly: I feel at peace at the table. This is new.",
     time: "",
     image: testimonialImages[0],
     imageAlt: "Témoignage avec photos avant/après"
   },
   {
-    message: "Je n'ai jamais eu autant de plaisir à cuisiner sans sucre 😍",
+    message: "I've never had so much pleasure cooking without sugar 😍",
     time: "",
     image: testimonialImages[1],
     imageAlt: "Témoignage cuisine sans sucre"
   },
   {
-    message: "Je suis choquée...<br>Pas une seule fringale cette semaine.<br>J'ai mangé normalement, j'ai cuisiné rapide, et pourtant je me sens PLUS LÉGÈRE que jamais.<br>C'est la première fois que je ne culpabilise pas à table.",
+    message: "I'm shocked...<br>Not a single craving this week.<br>I ate normally, cooked quickly, and yet I feel LIGHTER than ever.<br>This is the first time I don't feel guilty at the table.",
     time: "",
     image: testimonialImages[2],
     imageAlt: "Témoignage Le Plan Express"
   },
   {
-    message: "Je peux enfin manger du sucré sans craindre pour ma glycémie. Je suis diabétique et c'est toujours compliqué de trouver des desserts qui soient bons et sans sucre. J'ai fait votre brownie et il était parfait. Juste sucré comme il faut, la texture nickel... Franchement, je ne pensais pas que c'était possible. Merci pour ces recettes!!! 🙏🙏🙏",
+    message: "I can finally eat sweets without fearing for my blood sugar. I'm diabetic and it's always complicated to find desserts that are good and sugar-free. I made your brownie and it was perfect. Just sweet enough, perfect texture... Honestly, I didn't think it was possible. Thank you for these recipes!!! 🙏🙏🙏",
     time: "",
     image: testimonialImages[3],
     imageAlt: "Témoignage brownie sans sucre pour diabétique"
   },
   {
-    message: "Amelie, bonjour..... J'ai perdu 4 kilos sans même m'en rendre compte. J'ai pris votre livre pour manger plus sainement, et au final, ça m'a aussi aidée à perdre du poids. Les recettes sont rassasiantes et équilibrées, du coup j'ai arrêté de grignoter n'importe quoi. Maintenant, je mange bien, sans frustration, et je me sens mieux 🙏❤️❤️",
+    message: "Amelie, hello..... I lost 4 kilos without even realizing it. I got your book to eat healthier, and in the end, it also helped me lose weight. The recipes are filling and balanced, so I stopped snacking on anything. Now, I eat well, without frustration, and I feel better 🙏❤️❤️",
     time: "",
     image: testimonialImages[0],
     imageAlt: "Témoignage perte de poids"
   },
   {
-    message: "Mon fils m'a demandé de refaire les cookies du Plan Express. Avant il détestait mes recettes \"sans sucre\". Maintenant il dit que je cuisine comme une chef... ❤️ merci",
+    message: "My son asked me to make the Express Plan cookies again. Before he hated my \"sugar-free\" recipes. Now he says I cook like a chef... ❤️ thank you",
     time: "14:55",
     image: testimonialImages[1],
     imageAlt: "Témoignage cookies sans sucre"
   },
   {
-    message: "Vos recettes sont merveilleuses<br>Je digère mieux, je me sens plus légère... et je mange enfin avec plaisir.",
+    message: "Your recipes are wonderful<br>I digest better, I feel lighter... and I finally eat with pleasure.",
     time: "",
     image: testimonialImages[2],
     imageAlt: "Témoignage digestion améliorée"
   },
   {
-    message: "adorées !<br>Grâce à tes recettes, j'ai enfin trouvé l'équilibre. Je mange avec plaisir, je digère bien... et j'ai perdu 4 kg sans y penser.",
+    message: "loved them!<br>Thanks to your recipes, I finally found balance. I eat with pleasure, digest well... and lost 4 kg without thinking about it.",
     time: "",
     image: testimonialImages[3],
     imageAlt: "Témoignage équilibre alimentaire"
   },
   {
-    message: "Chef, je ne sais pas comment vous remercier. J'ai toujours eu des problèmes digestifs et je pensais que c'était normal d'être ballonnée tout le temps. Depuis que j'ai testé quelques recettes de votre livre, mon transit va beaucoup mieux. Je me sens plus légère, et en plus, tout est vraiment bon. Je n'aurais jamais cru qu'une alimentation sans gluten et sans lactose pouvait être aussi gourmande. Merci.",
+    message: "Chef, I don't know how to thank you. I've always had digestive problems and thought it was normal to be bloated all the time. Since I tried some recipes from your book, my digestion is much better. I feel lighter, and plus, everything is really good. I never would have believed that a gluten-free and lactose-free diet could be so delicious. Thank you.",
     time: "",
     image: testimonialImages[0],
     imageAlt: "Témoignage problèmes digestifs résolus"
   },
   {
-    message: "Salut chef! C'est Béatrice qui parle.... Mon fils est coeliaque et enfin, on mange tous la même chose. Avant, je faisais des plats à part pour lui, mais souvent, il n'aimait pas trop. Avec vos recettes, tout le monde mange pareil et adore. Le pain à la patate douce est devenu son préféré. Merci pour ces idées, ça change tout au quotidien.",
+    message: "Hi chef! This is Béatrice speaking.... My son has celiac disease and finally, we all eat the same thing. Before, I made separate dishes for him, but often, he didn't like them much. With your recipes, everyone eats the same and loves it. The sweet potato bread has become his favorite. Thank you for these ideas, it changes everything in daily life.",
     time: "2:42 PM",
     image: testimonialImages[1],
     imageAlt: "Témoignage coeliaque"
   },
   {
-    message: "Amelie, bonsoir!! Franchement, je suis trop contente. Depuis que j'ai découvert mon intolérance au lactose, j'avais arrêté de faire des desserts parce que rien ne me plaisait vraiment. Mais hier, j'ai fait votre gâteau aux carottes et il était parfait. Moelleux, savoureux, et le glaçage sans sucre est trop bon. Ça fait plaisir de pouvoir se faire plaisir sans culpabiliser 🙏❤️",
+    message: "Amelie, good evening!! Honestly, I'm so happy. Since I discovered my lactose intolerance, I had stopped making desserts because nothing really pleased me. But yesterday, I made your carrot cake and it was perfect. Moist, flavorful, and the sugar-free frosting is so good. It's nice to be able to treat yourself without feeling guilty 🙏❤️",
     time: "7:46 PM",
     image: testimonialImages[2],
     imageAlt: "Témoignage intolérance au lactose"
   },
   {
-    message: "Je pensais devoir dire adieu au pain, mais grâce à vos recettes, j'en remange enfin!! J'ai toujours adoré le pain au petit-déj, mais depuis que j'ai arrêté le gluten, toutes les alternatives étaient sèches et fades. J'ai essayé votre pain à l'avoine et j'ai été bluffée par la texture et le goût. Il est moelleux et savoureux, même ma famille l'adore. Merci pour ce livre!!!! 😋❤️",
+    message: "I thought I had to say goodbye to bread, but thanks to your recipes, I'm eating it again!! I've always loved bread for breakfast, but since I stopped gluten, all alternatives were dry and bland. I tried your oat bread and was amazed by the texture and taste. It's soft and flavorful, even my family loves it. Thank you for this book!!!! 😋❤️",
     time: "5:33 AM",
     image: testimonialImages[3],
     imageAlt: "Témoignage pain sans gluten"

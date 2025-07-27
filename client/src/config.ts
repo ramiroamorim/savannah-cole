@@ -35,42 +35,42 @@ export const ANIMATIONS = {
 // Textos compartilhados
 export const TEXTS = {
   QUIZ: {
-    PROGRESS: "Étape {current} sur {total}",
-    NEXT_BUTTON: "CONTINUER",
-    TESTIMONIAL_SWIPE: "Faites glisser ➤ pour voir ce qu'elles disent."
+    PROGRESS: "Step {current} of {total}",
+    NEXT_BUTTON: "CONTINUE",
+    TESTIMONIAL_SWIPE: "Swipe ➤ to see what they say."
   },
   SALES: {
     PRICE: {
-      ORIGINAL: "34€",
-      CURRENT: "17€",
-      REMAINING: "Dernières 20 unités disponibles à 17€ seulement!"
+      ORIGINAL: "$34",
+      CURRENT: "$17",
+      REMAINING: "Last 20 units available for only $17!"
     },
-    BUY_BUTTON: "JE VEUX LE PACK POUR 17€",
-    DELIVERY: "Livraison immédiate par e-mail. Sans abonnement. Sans engagement.",
+    BUY_BUTTON: "I WANT THE PACK FOR $17",
+    DELIVERY: "Immediate delivery by email. No subscription. No commitment.",
     BONUSES: [
       {
-        title: "🎁 Bonus 1 : Guide de substitutions intelligentes",
-        description: "Remplacez sucre, farine ou lait sans perdre le goût."
+        title: "🎁 Bonus 1: Smart substitution guide",
+        description: "Replace sugar, flour or milk without losing taste."
       },
       {
-        title: "🎁 Bonus 2 : Carte de satiété naturelle",
-        description: "Construisez des assiettes qui rassasient sans excès."
+        title: "🎁 Bonus 2: Natural satiety chart",
+        description: "Build plates that satisfy without excess."
       },
       {
-        title: "🎁 Bonus 3 : Protocole intestin + glycémie",
-        description: "Améliorez votre digestion et votre énergie au quotidien."
+        title: "🎁 Bonus 3: Gut + blood sugar protocol",
+        description: "Improve your digestion and daily energy."
       },
       {
-        title: "🎁 Bonus 4 : Liste de courses intelligente",
-        description: "Gagnez du temps avec des produits simples, testés, validés."
+        title: "🎁 Bonus 4: Smart shopping list",
+        description: "Save time with simple, tested, validated products."
       }
     ],
     CLOSING_TEXT: [
-      "Ce n'est pas un régime.",
-      "Ce n'est pas une promesse vide.",
-      "C'est un raccourci vers ce que vous vouliez depuis des années :",
-      "manger avec plaisir, sans douleur.",
-      "Et aujourd'hui, ça vous coûte moins qu'un plat fade au resto."
+      "This is not a diet.",
+      "This is not an empty promise.",
+      "It's a shortcut to what you've wanted for years:",
+      "eating with pleasure, without pain.",
+      "And today, it costs you less than a bland restaurant meal."
     ]
   }
 };

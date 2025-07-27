@@ -10,44 +10,44 @@ export const quizSteps: QuizStepType[] = [
   // Step 0 - Landing Page
   {
     name: "landing",
-    title: "On vous a menti.",
+    title: "You've been lied to.",
     textBlocks: [
       {
-        content: "Vous pouvez manger un <strong>brownie fondant</strong>, une <strong>brioche moelleuse</strong>, ou une <strong>tartelette chocolat-noisette</strong> — <em>sans sucre, sans gluten, sans lactose.</em>"
+        content: "You can eat a <strong>fudgy brownie</strong>, a <strong>soft brioche</strong>, or a <strong>chocolate-hazelnut tart</strong> — <em>sugar-free, gluten-free, lactose-free.</em>"
       },
       {
-        content: "Et vous resservir. Sans culpabilité."
+        content: "And go for seconds. Without guilt."
       },
       {
-        content: "🎁 En 1 minute, découvrez votre <strong>profil gourmand</strong> et accédez à la <em>collection privée</em> de 500 recettes emblématiques de la Chef Amélie."
+        content: "🎁 In 1 minute, discover your <strong>gourmet profile</strong> and access the <em>private collection</em> of 500 signature recipes from Chef Amélie."
       }
     ],
     image: "https://cdn.xquiz.co/images/94f2084a-557c-43be-abcc-2ba23141cb46",
-    imageAlt: "Desserts sans sucre, sans gluten, sans lactose",
-    buttonText: "Découvrir mon profil gourmand",
-    footerText: "Plus de <strong>30 000 femmes</strong> ont déjà découvert le leur<br>Ce test ne prend que 60 secondes"
+    imageAlt: "Sugar-free, gluten-free, lactose-free desserts",
+    buttonText: "Discover my gourmet profile",
+    footerText: "Over <strong>30,000 women</strong> have already discovered theirs<br>This test takes only 60 seconds"
   },
   
   // Step 1
   {
     name: "discourage",
-    title: "<span class='text-[#333333]'>Quand vous essayez de </span><span class='text-primary font-semibold'>manger plus sainement</span><span class='text-[#333333]'>... qu'est-ce qui vous </span><span class='text-primary font-semibold'>décourage</span><span class='text-[#333333]'> le plus ?</span>",
+    title: "<span class='text-[#333333]'>When you try to </span><span class='text-primary font-semibold'>eat healthier</span><span class='text-[#333333]'>... what </span><span class='text-primary font-semibold'>discourages</span><span class='text-[#333333]'> you the most?</span>",
     options: [
       {
         value: "fades",
-        label: "Les plats sont souvent fades ou secs"
+        label: "The dishes are often bland or dry"
       },
       {
         value: "faim",
-        label: "J'ai encore faim après avoir mangé"
+        label: "I'm still hungry after eating"
       },
       {
         value: "idees",
-        label: "Je ne sais pas quoi cuisiner au quotidien"
+        label: "I don't know what to cook on a daily basis"
       },
       {
         value: "abandon",
-        label: "J'abandonne au bout de quelques jours"
+        label: "I give up after a few days"
       }
     ]
   },
@@ -55,25 +55,25 @@ export const quizSteps: QuizStepType[] = [
   // Step 2
   {
     name: "dessert",
-    title: "<span class='text-primary font-semibold'>Même sans sucre, sans gluten, sans lactose... </span><span class='text-[#333333]'>quelle de ces gourmandises vous donne le plus envie ?</span>",
+    title: "<span class='text-primary font-semibold'>Even without sugar, gluten, or lactose... </span><span class='text-[#333333]'>which of these treats tempts you the most?</span>",
     image: RecipeImages.grid,
-    imageAlt: "Collection de desserts sans sucre, sans gluten, sans lactose",
+    imageAlt: "Collection of sugar-free, gluten-free, lactose-free desserts",
     options: [
       {
         value: "brownie",
-        label: "🍫 Brownie fondant encore tiède"
+        label: "🍫 Fudgy brownie still warm"
       },
       {
         value: "brioche",
-        label: "🥐 Brioche moelleuse à la cannelle"
+        label: "🥐 Soft cinnamon brioche"
       },
       {
         value: "tartelette",
-        label: "🥧 Tartelette chocolat-noisette"
+        label: "🥧 Chocolate-hazelnut tart"
       },
       {
         value: "baguette",
-        label: "🥖 Baguette croustillante et chaude"
+        label: "🥖 Crispy and warm baguette"
       }
     ]
   },
@@ -81,19 +81,19 @@ export const quizSteps: QuizStepType[] = [
   // Step 3
   {
     name: "tried_recipes",
-    title: "<span class='text-[#333333]'>Vous avez déjà essayé de suivre des </span><span class='text-primary font-semibold'>recettes \"saines\" </span><span class='text-[#333333]'>trouvées sur internet ?</span><br><span class='text-[#333333]'>Celles qui promettent tout... mais qui finissent </span><span class='text-primary font-semibold'>trop compliquées, trop fades </span><span class='text-[#333333]'>ou </span><span class='text-primary font-semibold'>complètement ratées </span><span class='text-[#333333]'>?</span>",
+    title: "<span class='text-[#333333]'>Have you ever tried following </span><span class='text-primary font-semibold'>\"healthy\" recipes </span><span class='text-[#333333]'>found on the internet?</span><br><span class='text-[#333333]'>The ones that promise everything... but end up </span><span class='text-primary font-semibold'>too complicated, too bland </span><span class='text-[#333333]'>or </span><span class='text-primary font-semibold'>complete failures</span><span class='text-[#333333]'>?</span>",
     options: [
       {
         value: "disappointed",
-        label: "😔 Oui, j'ai essayé... et j'ai été déçue"
+        label: "😔 Yes, I've tried... and I was disappointed"
       },
       {
         value: "sometimes",
-        label: "😐 J'ai essayé, parfois ça marche"
+        label: "😐 I've tried, sometimes it works"
       },
       {
         value: "no_trust",
-        label: "🧐 Non, je ne fais pas confiance aux recettes du net"
+        label: "🧐 No, I don't trust online recipes"
       }
     ]
   },
@@ -103,53 +103,53 @@ export const quizSteps: QuizStepType[] = [
     name: "chef_profile",
     image: ChefImages.amelie,
     imageAlt: "Chef Amélie Dupont",
-    title: "Une rencontre avec la Cheffe Amélie Dupont",
-    description: "Son histoire, sa mission, ses recettes.",
+    title: "Meet Chef Amélie Dupont",
+    description: "Her story, her mission, her recipes.",
     textBlocks: [
       {
-        content: "Née à Aix-en-Provence, Amélie Dupont a grandi entre les pains chauds, les herbes fraîches et les recettes familiales transmises par sa grand‑mère."
+        content: "Born in Aix-en-Provence, Amélie Dupont grew up surrounded by warm bread, fresh herbs, and family recipes passed down by her grandmother."
       },
       {
-        content: "Elle a affiné son savoir‑faire en travaillant dans des restaurants locaux engagés dans une cuisine naturelle et respectueuse du corps."
+        content: "She refined her expertise working in local restaurants committed to natural cuisine that respects the body."
       },
       {
-        content: "Mais c'est après avoir elle‑même découvert ses intolérances qu'elle décide de créer une nouvelle approche :"
+        content: "But it was after discovering her own intolerances that she decided to create a new approach:"
       },
       {
-        content: "Des recettes simples, gourmandes, sans sucre, sans gluten, sans lactose — et pleines de plaisir.",
+        content: "Simple, delicious recipes, sugar-free, gluten-free, lactose-free — and full of pleasure.",
         highlight: true
       },
       {
-        content: "Aujourd'hui, elle partage plus de 500 recettes conçues pour transformer le quotidien de milliers de femmes."
+        content: "Today, she shares over 500 recipes designed to transform the daily lives of thousands of women."
       }
     ],
-    buttonText: "Voir comment ses recettes peuvent m'aider"
+    buttonText: "See how her recipes can help me"
   },
   
   // Step 5
   {
     name: "improve",
-    title: "<span class='text-primary font-semibold'>Qu'est-ce que vous aimeriez améliorer </span><span class='text-[#333333]'>en priorité aujourd'hui ?</span>",
+    title: "<span class='text-primary font-semibold'>What would you like to improve </span><span class='text-[#333333]'>as a priority today?</span>",
     options: [
       {
         value: "digestion",
-        label: "🥗 Réduire les ballonnements et améliorer ma digestion"
+        label: "🥗 Reduce bloating and improve my digestion"
       },
       {
         value: "sugar",
-        label: "🍬 Stabiliser ma glycémie et réduire les envies de sucre"
+        label: "🍬 Stabilize my blood sugar and reduce sugar cravings"
       },
       {
         value: "weight",
-        label: "⚖️ Perdre du poids sans frustration ni régime extrême"
+        label: "⚖️ Lose weight without frustration or extreme dieting"
       },
       {
         value: "energy",
-        label: "💪 Retrouver mon énergie et sortir de la fatigue chronique"
+        label: "💪 Regain my energy and overcome chronic fatigue"
       },
       {
         value: "all",
-        label: "🌱 Tout ça à la fois (et enfin me sentir bien dans mon corps)"
+        label: "🌱 All of the above (and finally feel good in my body)"
       }
     ]
   },
@@ -157,9 +157,9 @@ export const quizSteps: QuizStepType[] = [
   // Step 6
   {
     name: "testimonials",
-    title: "<span class='text-primary font-semibold'>Centaines de femmes </span><span class='text-[#333333]'>ont déjà testé ces recettes et vu leur corps se transformer.</span>",
-    description: "<span class='text-primary'>Faites glisser ➤ pour voir ce qu'elles disent.</span>",
+    title: "<span class='text-primary font-semibold'>Hundreds of women </span><span class='text-[#333333]'>have already tested these recipes and seen their bodies transform.</span>",
+    description: "<span class='text-primary'>Swipe ➤ to see what they say.</span>",
     isTestimonialStep: true,
-    buttonText: "🔍 DÉCOUVRIR MON PROFIL"
+    buttonText: "🔍 DISCOVER MY PROFILE"
   }
 ];
