@@ -32,7 +32,7 @@ export default function QuizStep({
       >
         {/* Title */}
         {step.title && (
-          <h1 className="text-2xl sm:text-3xl md:text-4xl">{step.title}</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">{step.title}</h1>
         )}
 
         {/* Text Blocks */}
