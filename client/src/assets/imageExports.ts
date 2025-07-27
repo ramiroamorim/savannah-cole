@@ -27,7 +27,7 @@ import testimonial4 from './images/testemonials-us/prova 4.jpeg';
 import testimonialBread from './images/testemonials-us/prova 3 .jpeg';
 import testimonialBrownie from './images/testemonials-us/prova-2-bolo.jpeg';
 
-// Thank You Page Images
+// Thank You, Page Images
 import thankYouPage from './images/thank-you/thank-you-page.png';
 import audioPreview from './images/thank-you/audio-preview.png';
 

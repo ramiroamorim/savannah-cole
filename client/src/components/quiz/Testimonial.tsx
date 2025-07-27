@@ -67,7 +67,7 @@ export default function Testimonial({ testimonials, onComplete }: TestimonialPro
   }
 
   return (
-    <div className="flex flex-col justify-center min-h-[400px] w-full px-2 sm:px-4">
+    <div className="flex flex-col justify-center min-h-[200px] w-full px-2 sm:px-4">
       <div className="relative w-full max-w-md mx-auto">
         <AnimatePresence mode="wait">
           <motion.div
@@ -79,10 +79,10 @@ export default function Testimonial({ testimonials, onComplete }: TestimonialPro
             className="testimonial h-full w-full"
           >
             <div className="testimonial-content bg-white rounded-2xl shadow-lg flex flex-col overflow-hidden"
-                 style={{ boxShadow: '0 10px 25px rgba(0,0,0,0.08)', minHeight: '300px', height: '100%' }}>
+                 style={{ boxShadow: '0 10px 25px rgba(0,0,0,0.08)', minHeight: '200px', height: '100%' }}>
               
               <div className="relative flex-grow">
-                <div className="relative w-full h-[280px] rounded-xl overflow-hidden">
+                <div className="relative w-full h-[260px] rounded-xl overflow-hidden">
                   <img 
                     src={testimonialImages[currentIndex % testimonialImages.length]}
                     alt={current.imageAlt || "Recettes Chef Savannah Cole"} 
@@ -132,12 +132,12 @@ export default function Testimonial({ testimonials, onComplete }: TestimonialPro
         </AnimatePresence>
       </div>
 
-      <div className="flex justify-center items-center gap-2 my-3 sm:my-4 px-0 sm:px-2">
+      <div className="flex justify-center items-center gap-2 my-5 sm:my-4 px-0 sm:px-2">
         <div className="flex gap-1 sm:gap-1.5 items-center">
           {testimonials.map((_, index) => (
             <span 
               key={index} 
-              className={`block w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all duration-300 ${index === currentIndex ? 'bg-primary scale-125' : 'bg-gray-300'}`}
+              className={`block w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all duration-300 ${index === currentIndex ? 'bg-primary scale-125' : 'bg-gray-200'}`}
             />
           ))}
         </div>
@@ -148,7 +148,7 @@ export default function Testimonial({ testimonials, onComplete }: TestimonialPro
           className="btn-primary btn-pulse w-full sm:w-auto py-3 sm:py-4 px-6 sm:px-10 font-medium text-sm sm:text-base rounded-full"
           onClick={handleViewProfile}
         >
-          🔍 DÉCOUVRIR MON PROFIL
+          🔍 DISCOVER MY PROFILE
         </button>
       </div>
     </div>
