@@ -9,22 +9,23 @@
 import chefProfile from './images/chef/imagem finalizaçao.png';
 import chefSavannah from './images/chef/chef-savannah.png';
 
+
 // Recipes Images
-import recipeBook from './images/recipes/recipe-book-new.png'; // Imagem do livro de receitas
+import expertFechamento from './images/Book/expert fechamento.png';
+import expertFechamento2 from './images/Book/expert fechamento 2.png';
 import recipeCollage from './images/recipes/recipe-book-collage.png';
 import recipesGrid from './images/recipes/recipes-grid.png';
-import recipesGridCollage from './images/recipes/recipes-grid-collage.png';
+import recipesGridCollage from './images/recipes/recipe-grid-us.png';
 import recipesMain from './images/recipes/recipes-main.png';
 import recipes from './images/recipes/recipes.png';
-import bookPages from './images/book/book-pages.png';
 
 // Testimonials Images
-import testimonial1 from './images/testimonials/testimonial1.png';
-import testimonial2 from './images/testimonials/testimonial2.png';
-import testimonial3 from './images/testimonials/testimonial3.png';
-import testimonial4 from './images/testimonials/testimonial4.png';
-import testimonialBread from './images/testimonials/testimonial-bread.jpg';
-import testimonialBrownie from './images/testimonials/testimonial-brownie.jpg';
+import testimonial1 from './images/testemonials-us/prova 2.jpeg';
+import testimonial2 from './images/testemonials-us/prova-10.jpg';
+import testimonial3 from './images/testemonials-us/prova-01.jpg';
+import testimonial4 from './images/testemonials-us/prova 4.jpeg';
+import testimonialBread from './images/testemonials-us/prova 3 .jpeg';
+import testimonialBrownie from './images/testemonials-us/prova-2-bolo.jpeg';
 
 // Thank You Page Images
 import thankYouPage from './images/thank-you/thank-you-page.png';
@@ -37,13 +38,14 @@ export const ChefImages = {
 };
 
 export const RecipeImages = {
-  book: recipeBook,
+  book: expertFechamento,
   collage: recipeCollage,
   grid: recipesGrid,
   gridCollage: recipesGridCollage,
   main: recipesMain,
   recipes: recipes,
-  bookPages: bookPages
+  expertFechamento: expertFechamento,
+  expertFechamento2: expertFechamento2
 };
 
 export const TestimonialImages = {
@@ -67,12 +69,14 @@ export {
   chefSavannah,
   
   // Recipe Images
-  recipeBook,
+  expertFechamento as recipeBook,
   recipeCollage,
   recipesGrid,
   recipesGridCollage,
   recipesMain,
   recipes,
+  expertFechamento,
+  expertFechamento2,
   
   // Testimonial Images
   testimonial1,

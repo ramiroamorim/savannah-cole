@@ -1,11 +1,15 @@
 import React from "react";
 import { LINKS, COLORS, TEXTS } from "@/config";
-import { ChefImages, TestimonialImages } from '@/assets/imageExports';
+import {
+  expertFechamento,
+  expertFechamento2,
+  testimonialBrownie, testimonialBread
+} from '@/assets/imageExports';
 // Importando as imagens diretamente para garantir que o Vite processe corretamente
 import recipeBookImage from '@/assets/images/recipes/recipe-book.png';
 import recipeBookNewImage from '@/assets/images/recipes/recipe-book-new.png'; // Imagem nova para a segunda ocorrência
 import recipesMainImage from '@/assets/images/recipes/recipes-main.png';
-import recipesGridCollageImage from '@/assets/images/recipes/recipes-grid-collage.png';
+import recipesGridCollageImage from '@/assets/images/recipes/recipe-grid-us.png';
 
 // Objeto modificado com referências diretas
 const RecipeImages = {
@@ -198,26 +202,17 @@ export default function SalesPage() {
         
 
 
-        {/* Imagem das páginas do livro */}
+        {/* Imagem Expert Fechamento */}
         <div className="mb-4 sm:mb-5 overflow-hidden">
           <img 
-            src={RecipeImages.book} 
-            alt="Sugar-free recipe book pages"
+            src={expertFechamento} 
+            alt="Expert closing"
             className="w-full h-auto rounded-xl shadow-lg"
             style={{ 
               border: "1px solid #f0f0f0",
               maxWidth: "100%",
               display: "block",
               margin: "0 auto"
-            }}
-            onError={(e) => {
-              console.error("Erro ao carregar imagem:", e);
-              const target = e.target as HTMLImageElement;
-              target.onerror = null; // Previne loop infinito
-              // Tentar usar uma URL absoluta como fallback
-              if (RecipeImages && RecipeImages.main) {
-                target.src = RecipeImages.main;
-              }
             }}
           />
         </div>
@@ -331,26 +326,17 @@ export default function SalesPage() {
           </p>
         </div>
         
-        {/* Imagem do livro de receitas após o texto */}
+        {/* Imagem Expert Fechamento 2 */}
         <div className="mb-5 sm:mb-6 overflow-hidden">
           <img 
-            src={recipeBookNewImage} 
-            alt="Chef Savannah Cole recipe book"
+            src={expertFechamento2} 
+            alt="Expert closing 2"
             className="w-full h-auto rounded-xl shadow-lg"
             style={{ 
               border: "1px solid #f0f0f0",
               maxWidth: "100%",
               display: "block",
               margin: "0 auto"
-            }}
-            onError={(e) => {
-              console.error("Erro ao carregar imagem:", e);
-              const target = e.target as HTMLImageElement;
-              target.onerror = null; // Previne loop infinito
-              // Tentar usar uma URL absoluta como fallback
-              if (RecipeImages && RecipeImages.main) {
-                target.src = RecipeImages.main;
-              }
             }}
           />
         </div>
@@ -362,7 +348,7 @@ export default function SalesPage() {
         <div className="mb-5 sm:mb-6 space-y-3 sm:space-y-4">
           <div className="border border-gray-200 rounded-md overflow-hidden">
             <img 
-              src={TestimonialImages.bread} 
+              src={testimonialBrownie}
               alt="Client testimonial - gluten-free bread"
               className="w-full h-auto"
             />
@@ -370,7 +356,7 @@ export default function SalesPage() {
           
           <div className="border border-gray-200 rounded-md overflow-hidden">
             <img 
-              src={TestimonialImages.brownie} 
+              src={testimonialBread}
               alt="Client testimonial - sugar-free brownie"
               className="w-full h-auto"
             />

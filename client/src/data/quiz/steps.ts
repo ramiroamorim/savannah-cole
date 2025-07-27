@@ -1,4 +1,4 @@
-/**
+ /**
  * Passos/etapas do quiz
  * Contém todas as perguntas e opções que o usuário verá durante o quiz
  */
