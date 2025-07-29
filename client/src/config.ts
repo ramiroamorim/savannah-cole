@@ -6,14 +6,14 @@
 // Links externos
 export const LINKS = {
   SALES: {
-    BUY_URL: "https://pay.hotmart.com/D98080625O?off=1n1vmmyz&checkoutMode=10"
+    BUY_URL: "https://pay.hotmart.com/X101063078H?off=juejcbgp&checkoutMode=10"
   }
 };
 
 // Cores principais da aplicação
 export const COLORS = {
-  PRIMARY: "#B34431",  // Tom de vermelho escuro usado em textos importantes
-  PRIMARY_DARK: "#993322", // Versão mais escura para hover
+  PRIMARY: "#B80A0AFF",  // Tom de vermelho escuro usado em textos importantes
+  PRIMARY_DARK: "#B80A0AFF", // Versão mais escura para hover
   PRIMARY_LIGHT: "#FFF1EE", // Fundo claro para seções destacadas
   SUCCESS: "#57C084", // Verde para botões de ação/compra
   SUCCESS_DARK: "#45A26C", // Verde mais escuro para hover

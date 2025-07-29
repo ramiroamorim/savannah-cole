@@ -78,7 +78,7 @@ export default function SalesPage() {
           <h1 style={{ 
             fontFamily: "Georgia, 'Times New Roman', serif", 
             fontStyle: "italic",
-            color: "#B34431",
+            color: "#B80A0AFF",
             fontSize: "1.5rem",
             lineHeight: "1.4",
             marginBottom: "1rem",
