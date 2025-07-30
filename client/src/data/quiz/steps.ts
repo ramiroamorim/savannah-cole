@@ -112,6 +112,7 @@ export const quizSteps: QuizStepType[] = [
       {
         content: "She refined her expertise working in local restaurants committed to natural cuisine that respects the body."
       },
+
       {
         content: "But it was after discovering her own intolerances that she decided to create a new approach:"
       },

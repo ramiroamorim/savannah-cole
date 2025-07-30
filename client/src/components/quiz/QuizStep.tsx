@@ -207,11 +207,11 @@ export default function QuizStep({
       )}
       {/* Text Blocks com tamanho otimizado para Chef Profile */}
       {step.textBlocks && step.name === 'chef_profile' && (
-        <div className="space-y-1 sm:space-y-2 text-[#555555]">
+        <div className="space-y-4 sm:space-y-6 text-[#555555]">
           {step.textBlocks.map((text, i) => (
             <p 
               key={i} 
-              className={text.highlight ? "text-primary font-medium text-sm sm:text-base" : "text-sm sm:text-base"}
+              className={text.highlight ? "text-primary font-bold text-sm sm:text-base" : "text-sm sm:text-base"}
               dangerouslySetInnerHTML={{ __html: text.content }}
             />
           ))}
@@ -219,10 +219,10 @@ export default function QuizStep({
       )}
       {/* Text Blocks padrão para outros steps */}
       {step.textBlocks && step.name !== 'chef_profile' && (
-        <div className="space-y-2 sm:space-y-3 text-[#555555]">
+        <div className="space-y-16 sm:space-y-5 text-[#555555]">
           {step.textBlocks.map((text, i) => (
             <p 
-              key={i} 
+                key={i}
               className={text.highlight ? "text-primary font-medium text-xs sm:text-sm" : "text-xs sm:text-sm"}
               dangerouslySetInnerHTML={{ __html: text.content }}
             />
@@ -245,8 +245,8 @@ export default function QuizStep({
       )}
       {/* Button otimizado para Chef Profile */}
       {step.buttonText && !step.options && step.name === 'chef_profile' && (
-        <div className="relative w-full mt-2 sm:mt-3">
-          <div className="absolute inset-0 rounded-full opacity-30" 
+        <div className="relative w-full mt-4 sm:mt-3">
+          <div className="absolute inset-0 rounded-full opacity-30"
             style={{
               background: "linear-gradient(90deg, #E78D7B 0%, #E07260 100%)",
               animation: "ping 3s cubic-bezier(0.66, 0, 0, 1) infinite"
