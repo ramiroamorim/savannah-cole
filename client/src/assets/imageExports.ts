@@ -6,7 +6,7 @@
  */
 
 // Chef Images
-import chefProfile from './images/chef/imagem-finalizaçao.png';
+import chefProfile from './images/chef/imagem-finaliza.png';
 import chefSavannah from './images/chef/chef-savannah.png';
 
 
