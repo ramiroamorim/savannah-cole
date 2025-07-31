@@ -1,7 +1,7 @@
 import React from "react";
 import { LINKS, COLORS, TEXTS } from "@/config";
 import {
-  expertFechamento2,
+  expertfechamento2,
   testimonialBrownie, testimonialBread
 
 } from '@/assets/imageExports';
@@ -13,8 +13,8 @@ import recipesGridCollageImage from '@/assets/images/recipes/recipe-grid-us.png'
 
 // Objeto modificado com referências diretas
 const RecipeImages = {
-  book: expertFechamento2,
-  main: expertFechamento2,
+  book: expertfechamento2,
+  main: expertfechamento2,
   gridCollage: recipesGridCollageImage
 };
 
@@ -205,7 +205,7 @@ export default function SalesPage() {
         {/* Imagem Expert Fechamento */}
         <div className="mb-4 sm:mb-5 overflow-hidden">
           <img 
-            src={expertFechamento2}
+            src={expertfechamento2}
             alt="Expert closing"
             className="w-full h-auto rounded-xl shadow-lg"
             style={{ 
