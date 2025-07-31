@@ -1,4 +1,14 @@
-import { users, type User, type InsertUser } from "@shared/schema";
+// Definindo os tipos aqui mesmo, sem usar Drizzle
+export interface User {
+  id: number;
+  username: string;
+  // adicione outros campos que você precisar
+}
+
+export interface InsertUser {
+  username: string;
+  // adicione outros campos que você precisar (sem o id)
+}
 
 // modify the interface with any CRUD methods
 // you might need
@@ -24,7 +34,7 @@ export class MemStorage implements IStorage {
 
   async getUserByUsername(username: string): Promise<User | undefined> {
     return Array.from(this.users.values()).find(
-      (user) => user.username === username,
+        (user) => user.username === username,
     );
   }
 
