@@ -12,7 +12,7 @@ import chefSavannah from './images/chef/chef-savannah.png';
 
 // Recipes Images
 import book from './images/Book/book-expert.png';
-import expertFechamento2 from './images/Book/little-book-01.png';
+import expertFechamento2 from './images/Book/li-book.png';
 import recipesGrid from './images/recipes/recipes-grid.png';
 import recipesGridCollage from './images/recipes/recipe-grid-us.png';
 import recipesMain from './images/recipes/recipes-main.png';
