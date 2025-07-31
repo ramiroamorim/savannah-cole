@@ -52,8 +52,8 @@ export const FacebookPixel = {
   trackThankYouPage: () => {
     if (typeof window !== 'undefined' && window.fbq) {
       window.fbq('track', 'Purchase', {
-        value: 49.90,
-        currency: 'US'
+        value: 17,
+        currency: 'USD'
       });
     }
   },

@@ -1,20 +1,20 @@
 import React from "react";
 import { LINKS, COLORS, TEXTS } from "@/config";
 import {
-  expertFechamento,
   expertFechamento2,
   testimonialBrownie, testimonialBread
+
 } from '@/assets/imageExports';
 // Importando as imagens diretamente para garantir que o Vite processe corretamente
-import recipeBookImage from '@/assets/images/recipes/recipe-book.png';
-import recipeBookNewImage from '@/assets/images/recipes/recipe-book-new.png'; // Imagem nova para a segunda ocorrência
+import recipeBookImage from '@/assets/images/book/little-book-01.png';
+import recipeBookNewImage from '@/assets/images/book/book-expert.png';
 import recipesMainImage from '@/assets/images/recipes/recipes-main.png';
 import recipesGridCollageImage from '@/assets/images/recipes/recipe-grid-us.png';
 
 // Objeto modificado com referências diretas
 const RecipeImages = {
-  book: recipeBookImage,
-  main: recipesMainImage,
+  book: expertFechamento2,
+  main: expertFechamento2,
   gridCollage: recipesGridCollageImage
 };
 
@@ -205,7 +205,7 @@ export default function SalesPage() {
         {/* Imagem Expert Fechamento */}
         <div className="mb-4 sm:mb-5 overflow-hidden">
           <img 
-            src={expertFechamento} 
+            src={expertFechamento2}
             alt="Expert closing"
             className="w-full h-auto rounded-xl shadow-lg"
             style={{ 
@@ -329,7 +329,7 @@ export default function SalesPage() {
         {/* Imagem Expert Fechamento 2 */}
         <div className="mb-5 sm:mb-6 overflow-hidden">
           <img 
-            src={expertFechamento2} 
+            src={recipeBookNewImage}
             alt="Expert closing 2"
             className="w-full h-auto rounded-xl shadow-lg"
             style={{ 

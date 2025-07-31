@@ -128,7 +128,7 @@ export default function QuizStep({
           {/* Title maior para melhor legibilidade */}
           {step.title && (
             <h2 
-              className="text-base sm:text-xl font-medium mb-1 sm:mb-2 text-center"
+              className="text-lg sm:text-3xl font-bold mb-1 sm:mb-2 text-center"
               dangerouslySetInnerHTML={{ __html: step.title }}
             />
           )}

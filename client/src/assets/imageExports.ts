@@ -11,13 +11,11 @@ import chefSavannah from './images/chef/chef-savannah.png';
 
 
 // Recipes Images
-import expertFechamento from './images/Book/expert fechamento.png';
-import expertFechamento2 from './images/Book/expert fechamento 2.png';
-import recipeCollage from './images/recipes/recipe-book-collage.png';
+import book from './images/Book/book-expert.png';
+import expertFechamento2 from './images/Book/little-book-01.png';
 import recipesGrid from './images/recipes/recipes-grid.png';
 import recipesGridCollage from './images/recipes/recipe-grid-us.png';
 import recipesMain from './images/recipes/recipes-main.png';
-import recipes from './images/recipes/recipes.png';
 
 // Testimonials Images
 import testimonial1 from './images/testemonials-us/prova 2.jpeg';
@@ -38,14 +36,10 @@ export const ChefImages = {
 };
 
 export const RecipeImages = {
-  book: expertFechamento,
-  collage: recipeCollage,
   grid: recipesGrid,
   gridCollage: recipesGridCollage,
   main: recipesMain,
-  recipes: recipes,
-  expertFechamento: expertFechamento,
-  expertFechamento2: expertFechamento2
+  expertFechamento2: expertFechamento2,
 };
 
 export const TestimonialImages = {
@@ -69,13 +63,9 @@ export {
   chefSavannah,
   
   // Recipe Images
-  expertFechamento as recipeBook,
-  recipeCollage,
   recipesGrid,
   recipesGridCollage,
   recipesMain,
-  recipes,
-  expertFechamento,
   expertFechamento2,
   
   // Testimonial Images
