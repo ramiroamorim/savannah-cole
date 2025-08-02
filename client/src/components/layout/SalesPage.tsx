@@ -7,7 +7,7 @@ import {
 } from '@/assets/imageExports';
 // Importando as imagens diretamente para garantir que o Vite processe corretamente
 import recipeBookImage from '@/assets/images/Book/li-book.png';
-import recipeBookNewImage from '@/assets/images/book/book-expert.png';
+import recipeBookNewImage from '@/assets/images/images-chck/img-check2.png';
 import recipesMainImage from '@/assets/images/recipes/recipes-main.png';
 import recipesGridCollageImage from '@/assets/images/recipes/recipe-grid-us.png';
 
