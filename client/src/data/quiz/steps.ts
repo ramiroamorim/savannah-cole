@@ -107,21 +107,21 @@ export const quizSteps: QuizStepType[] = [
     description: "Her story, her mission, her recipes.",
     textBlocks: [
       {
-        content: "Born in Georgia, USA, Savannah Cole grew up surrounded by warm bread, fresh herbs, and family recipes passed down by her grandmother."
+        content: "Born in Italy, Savannah Cole grew up in a place where food is synonymous with love and tradition. From an early age, she learned family recipes alongside her grandmother."
       },
       {
-        content: "She refined her expertise working in local restaurants committed to natural cuisine that respects the body."
+        content: "discovering that every meal could create special memories."
       },
 
       {
-        content: "But it was after discovering her own intolerances that she decided to create a new approach:"
+        content: "After dealing with her own food intolerances, Savannah decided to reinvent classic Italian cuisine."
       },
       {
-        content: "Simple, delicious recipes, sugar-free, gluten-free, lactose-free — and full of pleasure.",
+        content: "making it simple, delicious, and free of sugar, gluten, and lactose..",
         highlight: true
       },
       {
-        content: "Today, she shares over 500 recipes designed to transform the daily lives of thousands of women."
+        content: "Today, she shares more than 500 recipes that prove you can enjoy every bite without guilt or restrictions."
       }
     ],
     buttonText: "See how her recipes can help me"
