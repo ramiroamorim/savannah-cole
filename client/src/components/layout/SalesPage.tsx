@@ -54,15 +54,15 @@ const PriceSection = ({ buyUrl }: { buyUrl: string }) => (
       backgroundColor: "#FFF5F5", 
       borderColor: "#FFE5E5" 
     }}>
-    <p style={{ fontSize: "1.05rem", marginBottom: "0.5rem" }}>Real value of the pack: <span className="line-through">$34</span></p>
-    <p style={{ fontSize: "1.35rem", fontWeight: "bold", color: COLORS.PRIMARY, marginBottom: "1rem" }}>Today: only $17</p>
-    <p style={{ fontSize: "1.05rem", fontWeight: "bold", color: COLORS.ERROR, marginBottom: "1.5rem" }}>⚠️ Last 20 units available for only $17!</p>
+    <p style={{ fontSize: "1.05rem", marginBottom: "0.5rem" }}>Valor real del paquete: <span className="line-through">$34</span></p>
+    <p style={{ fontSize: "1.35rem", fontWeight: "bold", color: COLORS.PRIMARY, marginBottom: "1rem" }}>Hoy: solo por $17</p>
+    <p style={{ fontSize: "1.05rem", fontWeight: "bold", color: COLORS.ERROR, marginBottom: "1.5rem" }}>⚠️ Solo quedan 20 unidades, por solo $17!</p>
     
     <GreenPulseButton href={buyUrl}>
       I WANT THE PACK FOR $17
     </GreenPulseButton>
     
-    <p style={{ fontSize: "1.05rem" }}>📩 Immediate delivery by email. No subscription. No commitment.</p>
+    <p style={{ fontSize: "1.05rem" }}>📩 Entrega inmediata por correo electrónico. Sin suscripción. Sin compromiso.</p>
   </div>
 );
 
@@ -84,16 +84,16 @@ export default function SalesPage() {
             marginBottom: "1rem",
             fontWeight: "normal"
           }}>
-            <span className="block">500 sugar-free, gluten-free</span>
-            <span className="block">and lactose-free recipes</span>
-            <span className="block">that nourish, help you lose weight</span>
-            <span className="block">with pleasure</span>
-            <span className="block">and rebalance your body.</span>
+            <span className="block">500 sin azúcar y sin gluten</span>
+            <span className="block">y recetas sin lactosa</span>
+            <span className="block">que nutren y te ayudan a bajar de peso</span>
+            <span className="block">con placer</span>
+            <span className="block">y reequilibran tu cuerpo.</span>
           </h1>
 
           <div className="mt-3 sm:mt-4">
-            <p className="mb-2 text-xs sm:text-sm">No fad diets. No impossible-to-find ingredients. No sad dishes.</p>
-            <p className="mb-2 text-xs sm:text-sm">Only <strong>real, flavorful and liberating</strong> cuisine — for women with restrictions who still want to <strong>enjoy food without fear.</strong></p>
+            <p className="mb-2 text-xs sm:text-sm">Sin dietas de moda. Sin ingredientes imposibles de encontrar. Sin platos tristes.</p>
+            <p className="mb-2 text-xs sm:text-sm">Solo <strong>cocina real, llena de sabor y liberadora</strong>  para mujeres con restricciones que aún quieren disfrutar de la comida <strong>sin miedo</strong></p>
           </div>
         </div>
 
@@ -114,7 +114,7 @@ export default function SalesPage() {
             fontWeight: "700",
             color: "#57C084",
             marginBottom: "10px"
-          }}>💚 Who this is for:</h3>
+          }}>💚 Para quién es:</h3>
           <ul style={{
             listStyle: "none",
             padding: "0 0 0 4px",
@@ -123,10 +123,10 @@ export default function SalesPage() {
             fontSize: "0.95rem",
             lineHeight: "1.8"
           }}>
-            <li>🌿 Women with intolerances (gluten, lactose, sugar)</li>
-            <li>🥗 Those who want to lose weight without frustration</li>
-            <li>😩 Those tired of sad and tasteless dishes</li>
-            <li>✨ Those who want a simple and sustainable method</li>
+            <li>🌿 Mujeres con intolerancias (gluten, lactosa, azúcar)</li>
+            <li>🥗 Quienes quieren bajar de peso sin frustraciones</li>
+            <li>😩 Quienes están cansadas de platos tristes y sin sabor</li>
+            <li>✨ Quienes buscan un método simple y sostenible</li>
           </ul>
         </div>
 
@@ -144,7 +144,7 @@ export default function SalesPage() {
             fontWeight: "700",
             color: "#F44336",
             marginBottom: "10px"
-          }}>🚫 Who this is NOT for:</h3>
+          }}>🚫 Para quién NO es:</h3>
           <ul style={{
             listStyle: "none",
             padding: "0 0 0 4px",
@@ -153,13 +153,13 @@ export default function SalesPage() {
             fontSize: "0.95rem",
             lineHeight: "1.8"
           }}>
-            <li>🙅‍♀️ Those who don't want to change their habits</li>
-            <li>🧪 Those looking for a magic solution</li>
-            <li>🌀 Those who prefer to stay in chaos</li>
+            <li>🙅‍♀️ Mujeres que no quieren cambiar sus hábitos</li>
+            <li>🧪 Mujeres que buscan una solución mágica</li>
+            <li>🌀 Mujeres que prefieren quedarse en el caos</li>
             <li style={{ 
               fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
               fontSize: "0.95rem"
-            }}>🍕 Those who refuse to cook even a little</li>
+            }}>🍕 Mujeres que se niegan a cocinar aunque sea un poco</li>
           </ul>
         </div>
 
@@ -182,7 +182,7 @@ export default function SalesPage() {
             textAlign: "center",
             fontWeight: "bold"
           }}>
-            You won't find these recipes on Google.
+            No encontrarás estas recetas en Google.
           </p>
           <p style={{ 
             fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
@@ -192,7 +192,7 @@ export default function SalesPage() {
             color: "#333333",
             margin: "0"
           }}>
-            They were born in Savannah's real kitchen — not on Pinterest, nor in a copy-paste blog. Each dish was designed to <span style={{ fontWeight: "700" }}>soothe, nourish</span>... and bring back <span style={{ fontWeight: "700" }}>pleasure</span> to those who had given up.
+            Nacieron en la cocina real de Valentina — no en Pinterest ni en un blog de copiar y pegar. Cada plato fue diseñado para <span style={{ fontWeight: "700" }}>calmar y nutrir</span>…y devolver <span style={{ fontWeight: "700" }}>placer</span> a quienes ya se habían rendido.
           </p>
         </div>
         
@@ -225,13 +225,13 @@ export default function SalesPage() {
             fontWeight: "700", 
             color: "#2196F3", 
             marginBottom: "10px" 
-          }}>📦 What you will receive:</h2>
+          }}>📦 Lo que recibirás:</h2>
           <p style={{ 
             fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
             fontSize: "0.95rem", 
             marginBottom: "10px",
             lineHeight: "1.8"
-          }}>Access to <span style={{ color: "#B34431", fontWeight: "bold" }}>500 exclusive recipes</span> created and tested by Chef Savannah — organized to nourish, soothe and delight your daily life.</p>
+          }}>Acceso a <span style={{ color: "#B34431", fontWeight: "bold" }}>500 recetas exclusivas</span> creadas y probadas por la chef Valentina Morales, organizadas para nutrir, reconfortar y deleitar tu día a día.</p>
           
           <ul style={{
             listStyle: "none",
@@ -241,10 +241,10 @@ export default function SalesPage() {
             fontSize: "0.95rem",
             lineHeight: "1.8"
           }}>
-            <li>🍽️ <span style={{ color: "#B34431", fontWeight: "bold" }}>100 breakfasts & snacks</span> — to start the day right, without sugar spikes</li>
-            <li>🥦 <span style={{ color: "#B34431", fontWeight: "bold" }}>300 lunches & dinners</span> — easy, nourishing and balanced, for every day</li>
-            <li>🍫 <span style={{ color: "#B34431", fontWeight: "bold" }}>100 gourmet desserts</span> — without refined sugar, but full of pleasure</li>
-            <li>🧭 <span style={{ color: "#B34431", fontWeight: "bold" }}>Recipes organized by goal</span>: digestion, satiety, inflammation, energy</li>
+            <li>🍽️ <span style={{ color: "#B34431", fontWeight: "bold" }}>100 desayunos y snacks</span> — para empezar bien el día, sin picos de azúcar</li>
+            <li>🥦 <span style={{ color: "#B34431", fontWeight: "bold" }}>300 propuestas de almuerzos y cenas</span> — sencillos, nutritivos y equilibrados, para cada día</li>
+            <li>🍫 <span style={{ color: "#B34431", fontWeight: "bold" }}>100 postres gourmet</span> — sin azúcar refinada, pero llenos de placer</li>
+            <li>🧭 <span style={{ color: "#B34431", fontWeight: "bold" }}>Recetas organizadas según tu objetivo</span>: digestión, saciedad, inflamación, energía</li>
           </ul>
         </div>
 
@@ -258,7 +258,7 @@ export default function SalesPage() {
             fontWeight: "700", 
             color: "#FF9800", 
             marginBottom: "10px" 
-          }}>🎁 Exclusive bonuses included today:</h2>
+          }}>🎁 Bonos exclusivos incluidos hoy:</h2>
           
           <ul style={{
             listStyle: "none",
@@ -267,20 +267,20 @@ export default function SalesPage() {
             fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
           }}>
             <li style={{ marginBottom: "12px" }}>
-              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bonus 1: Smart substitution guide</p>
-              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Replace sugar, flour or milk without losing taste.</p>
+              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bono 1: Guía inteligente de sustituciones</p>
+              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Sustituye el azúcar, la harina o la leche… sin renunciar al sabor.</p>
             </li>
             <li style={{ marginBottom: "12px" }}>
-              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bonus 2: Natural satiety chart</p>
-              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Build plates that satisfy without excess.</p>
+              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bono 2: Tabla de saciedad natural</p>
+              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Crea platos que sacien sin excesos.</p>
             </li>
             <li style={{ marginBottom: "12px" }}>
-              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bonus 3: Gut + blood sugar protocol</p>
-              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Improve your digestion and daily energy.</p>
+              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bono 3: Protocolo para el intestino y el azúcar en sangre</p>
+              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Mejora tu digestión y tu energía diaria.</p>
             </li>
             <li style={{ marginBottom: "0" }}>
-              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}>🎁 Bonus 4: Smart shopping list</p>
-              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Save time with simple, tested, validated products.</p>
+              <p style={{ fontSize: "0.95rem", fontWeight: "bold", margin: "0 0 4px 0", lineHeight: "1.8" }}> Bono 4: Lista de compras inteligente</p>
+              <p style={{ fontSize: "0.95rem", marginLeft: "1rem", margin: "0", lineHeight: "1.8" }}>Ahorra tiempo con productos sencillos, probados y aprobados.</p>
             </li>
           </ul>
         </div>
@@ -302,7 +302,7 @@ export default function SalesPage() {
             marginBottom: "12px",
             fontWeight: "normal"
           }}>
-            This is not a diet. This is not an empty promise.
+            No es una dieta. No es una promesa vacía.
           </p>
           <p style={{ 
             fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
@@ -312,7 +312,7 @@ export default function SalesPage() {
             marginBottom: "12px",
             fontWeight: "normal"
           }}>
-            It's a shortcut to what you've wanted for years: <span style={{ color: "#B34431", fontWeight: "600" }}>eating with pleasure, without pain.</span>
+            Es un atajo hacia lo que has querido durante años: <span style={{ color: "#B34431", fontWeight: "600" }}>disfrutar de la comida con placer, sin dolor</span>
           </p>
           <p style={{ 
             fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
@@ -322,7 +322,7 @@ export default function SalesPage() {
             marginBottom: "0",
             fontWeight: "normal"
           }}>
-            And today, it costs you less than a bland restaurant meal.
+            Y hoy, cuesta menos que una comida sin sabor en un restaurante.
           </p>
         </div>
         
@@ -375,7 +375,7 @@ export default function SalesPage() {
             color: "#666666", 
             lineHeight: "1.8"
           }}>
-            With all my heart — so you can finally eat with freedom and pleasure.
+            Con todo mi corazón — para que al fin disfrutes de la comida con libertad y placer.
           </p>
           <p style={{ 
             fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
@@ -384,7 +384,7 @@ export default function SalesPage() {
             fontWeight: "500", 
             color: "#B34431"
           }}>
-            Chef Savannah Cole
+            Chef Valentina Morales
           </p>
         </div>
       </div>
