@@ -59,7 +59,7 @@ const PriceSection = ({ buyUrl }: { buyUrl: string }) => (
     <p style={{ fontSize: "1.05rem", fontWeight: "bold", color: COLORS.ERROR, marginBottom: "1.5rem" }}>⚠️ Solo quedan 20 unidades, por solo $17!</p>
     
     <GreenPulseButton href={buyUrl}>
-      I WANT THE PACK FOR $17
+      QUIERO EL PACK POR $17
     </GreenPulseButton>
     
     <p style={{ fontSize: "1.05rem" }}>📩 Entrega inmediata por correo electrónico. Sin suscripción. Sin compromiso.</p>

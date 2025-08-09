@@ -148,7 +148,7 @@ export default function Testimonial({ testimonials, onComplete }: TestimonialPro
           className="btn-primary btn-pulse w-full sm:w-auto py-3 sm:py-4 px-6 sm:px-10 font-medium text-sm sm:text-base rounded-full"
           onClick={handleViewProfile}
         >
-          🔍 DISCOVER MY PROFILE
+          🔍 DESCUBRE MI PERFIL
         </button>
       </div>
     </div>
