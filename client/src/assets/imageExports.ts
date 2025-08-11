@@ -11,7 +11,8 @@ import chefProfile from './images/chef/imagem-finaliza.png';
 import chefSavannah from './images/chef/chef-savannah.png';
 
 // Recipes Images
-import expertfechamento2 from './images/images-chck/img-chek1.png';
+import novissima from './images/Imagenova/novissima.png'
+import imagenova from './images/Imagenova/img-esp-final1.png';
 import recipesGrid from './images/recipes/recipes-grid.png';
 import recipesGridCollage from './images/recipes/recipe-grid-us.png';
 import recipesMain from './images/recipes/recipes-main.png';
@@ -38,7 +39,7 @@ export const RecipeImages = {
   grid: recipesGrid,
   gridCollage: recipesGridCollage,
   main: recipesMain,
-  expertFechamento2: expertfechamento2,
+  imagenova: imagenova
 };
 
 export const TestimonialImages = {
@@ -65,7 +66,8 @@ export {
   recipesGrid,
   recipesGridCollage,
   recipesMain,
-  expertfechamento2,
+  imagenova,
+  novissima,
 
   // Testimonial Images
   testimonial1,
