@@ -7,7 +7,7 @@ import {
     testimonialBread
 } from '@/assets/imageExports';
 // Importando as imagens diretamente para garantir que o Vite processe corretamente
-import recipesGridCollageImage from '@/assets/images/recipes/recipe-grid-us.png';
+import recipesGridCollageImage from '@/assets/images/recipes/banner-final-esp.png';
 
 // Objeto modificado com referências diretas
 const RecipeImages = {

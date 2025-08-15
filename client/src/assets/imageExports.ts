@@ -14,16 +14,17 @@ import chefSavannah from './images/chef/chef-savannah.png';
 import novissima from './images/Imagenova/novissima.png'
 import imagenova from './images/Imagenova/img-esp-final1.png';
 import recipesGrid from './images/recipes/recipes-grid.png';
-import recipesGridCollage from './images/recipes/recipe-grid-us.png';
+import recipesGridCollage from './images/recipes/banner-final-esp.png';
 import recipesMain from './images/recipes/recipes-main.png';
 
 // Testimonials Images - CORRIGIDO SEM ESPAÇOS
-import testimonial1 from './images/testemonials-us/prova-2.jpeg';
-import testimonial2 from './images/testemonials-us/prova-10.jpg';
-import testimonial3 from './images/testemonials-us/prova-01.jpg';
-import testimonial4 from './images/testemonials-us/prova-4.jpeg';
-import testimonialBread from './images/testemonials-us/prova-3.jpeg';
-import testimonialBrownie from './images/testemonials-us/prova-2-bolo.jpeg';
+import testimonial1 from './images/testemonail-carrousell/testimonial1.jpg';
+import testimonial2 from './images/testemonail-carrousell/testimonial2.jpg';
+import testimonial3 from './images/testemonail-carrousell/testimonial3.jpg';
+import testimonial4 from './images/testemonail-carrousell/testimonial4.jpg';
+import testimonial5 from './images/testemonail-carrousell/testimoanial5.jpg';
+import testimonialBread from './images/testemonail-carrousell/testimonial2.jpg';
+import testimonialBrownie from './images/testemonail-carrousell/testimonial4.jpg';
 
 // Thank You, Page Images
 import thankYouPage from './images/thank-you/thank-you-page.png';
