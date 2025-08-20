@@ -52,12 +52,12 @@ const PriceSection = ({ buyUrl }: { buyUrl: string }) => (
       backgroundColor: "#FFF5F5", 
       borderColor: "#FFE5E5" 
     }}>
-    <p style={{ fontSize: "1.05rem", marginBottom: "0.5rem" }}>Valor real del paquete: <span className="line-through">$34</span></p>
-    <p style={{ fontSize: "1.35rem", fontWeight: "bold", color: COLORS.PRIMARY, marginBottom: "1rem" }}>Hoy: solo por $17</p>
-    <p style={{ fontSize: "1.05rem", fontWeight: "bold", color: COLORS.ERROR, marginBottom: "1.5rem" }}>⚠️ Solo quedan 20 unidades, por solo $17!</p>
+    <p style={{ fontSize: "1.05rem", marginBottom: "0.5rem" }}>Valor real del paquete: <span className="line-through">€34</span></p>
+    <p style={{ fontSize: "1.35rem", fontWeight: "bold", color: COLORS.PRIMARY, marginBottom: "1rem" }}>Hoy: solo por €17</p>
+    <p style={{ fontSize: "1.05rem", fontWeight: "bold", color: COLORS.ERROR, marginBottom: "1.5rem" }}>⚠️ Solo quedan 20 unidades, por solo €17!</p>
     
     <GreenPulseButton href={buyUrl}>
-      QUIERO EL PACK POR $17
+      QUIERO EL PACK POR €17
     </GreenPulseButton>
     
     <p style={{ fontSize: "1.05rem" }}>📩 Entrega inmediata por correo electrónico. Sin suscripción. Sin compromiso.</p>
